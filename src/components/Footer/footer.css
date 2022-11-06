@@ -1,0 +1,7 @@
+.footer {
+    background: rgb(65, 198, 243);
+    text-align: center;
+    color: var(--black);
+    border-radius: 15px;
+    width: 100%;
+}

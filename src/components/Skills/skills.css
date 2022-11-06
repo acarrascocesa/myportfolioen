@@ -1,0 +1,64 @@
+.skills {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 65vh;
+    gap: 19rem;
+    margin-top: 9rem;
+    margin-bottom: 10px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome > :nth-child(2) {
+    color: rgb(35, 148, 186);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.html, .css, .javascript, .react, .python {
+    color: rgb(35, 148, 186);
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 20rem;
+        padding: 0;
+    }
+    .cards {
+        display: grid;
+        gap: 2rem;
+        width: auto;
+    }
+    .cards>* {
+        position: static;
+        width: auto;
+    }
+    
+}

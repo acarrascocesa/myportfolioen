@@ -1,0 +1,48 @@
+.c-wrapper {
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.c-heading {
+    align-self: start;
+}
+
+.c-heading>* {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.c-heading span:nth-of-type(2) {
+    color: rgb(65, 198, 243);
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 50rem;
+    height: 18rem;
+    cursor: grab;
+}
+
+.certificates img {
+    width: 30rem;
+    max-height: 350px;
+    filter: drop-shadow(-12px 15px 13px rgba(63, 184, 228, 0.25));
+    border-radius: 19px;
+}
+
+.certificates img:hover {
+    transform: scaleY(1.2);
+    transform: translate(1.2) ease ;
+    transition: 0.5s ease;
+}
