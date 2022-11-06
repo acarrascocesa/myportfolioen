@@ -1,6 +1,6 @@
 import "./intro.css";
-import vector1 from "./vector1.png";
-import vector2 from "./vector2.png";
+import vector1 from "./Vector1.png";
+import vector2 from "./Vector2.png";
 import develo from "../../assets/codificacion.png";
 import me from "../../assets/me.png";
 import glasses from "../../assets/glasses.png";
