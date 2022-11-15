@@ -5,11 +5,10 @@ import develo from "../../assets/codificacion.png";
 import me from "../../assets/me.png";
 import glasses from "../../assets/glasses.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Intro = () => {
-
-  const transition = {duration: 2, type: "spring"}
+  const transition = { duration: 2, type: "spring" };
   return (
     <div className="intro">
       <div className="i-left">
@@ -17,8 +16,10 @@ const Intro = () => {
           <span>Hi! I'm</span>
           <span>Angel Carrasco</span>
           <span>
-            Frontend Developer with high skills in web designing and
-            development, building great Apps and more...
+            I'm a Frontend Developer with React. I can handle HTML, CSS, Javascript,
+            React, Python, Git. I am a responsible person, willing to learn
+            everything related to programming. I have 8 years of experience as
+            Senior Technical Support.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
@@ -41,23 +42,35 @@ const Intro = () => {
         <img src={vector1} alt="" />
         <img src={vector2} alt="" />
         <img className="me" src={me} alt="" />
-        <motion.img 
-        className="floating-div"
-        initial={{left: "-36%"}}
-        whileInView={{left: "-24%"}}
-        transition={transition}
-        src={glasses} alt="" />
-        <motion.div 
-        className="floating-div "
-        initial={{top: "-4", left: "74%"}}
-        whileInView={{left: "68%"}}
-        transition={transition}
-        style={{ top: "-4%", left: "70%" }}>
+        <motion.img
+          className="floating-div"
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glasses}
+          alt=""
+        />
+        <motion.div
+          className="floating-div "
+          initial={{ top: "-4", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          style={{ top: "-4%", left: "70%" }}
+        >
           <FloatingDiv image={develo} txt1="React" txt2="Developer" />
         </motion.div>
-        
-        <div className="blur" style={{background: "rgb(35, 148, 186)"}}></div>
-        <div className="blur" style={{background: "#c1f5ff", top: "17rem", width: "21rem", height: "11rem", left: "-9rem"}}></div>
+
+        <div className="blur" style={{ background: "rgb(35, 148, 186)" }}></div>
+        <div
+          className="blur"
+          style={{
+            background: "#c1f5ff",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </div>
     </div>
   );

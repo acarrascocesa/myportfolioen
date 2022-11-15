@@ -55,10 +55,11 @@ const Navbarr = () => {
             >
               <li>Contact</li>
             </Link>
-
           </ul>
         </div>
-        <button className="button n-button">Contact Me</button>
+        <Link spy={true} to="Contact" smooth={true} activeClass="activeClass">
+            <button className="button n-button">Contact Me</button>
+        </Link>
       </div>
     </div>
   );
