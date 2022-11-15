@@ -11,6 +11,7 @@ import crypto from "./img/crypto.png"
 import acdrinks from "./img/acdrinks.png"
 import pokedex from "./img/pokedex.png"
 import portfolio from "./img/portfolio.png"
+import acshop from "./img/acshop.png"
 
 import "swiper/css"
 
@@ -22,7 +23,7 @@ const Projects = () => {
 
         <Swiper
         spaceBetween={200}
-        slidesPerView={3}
+        slidesPerView={2}
         grabCursor={true}
         className="projects-slider"
         >
@@ -61,6 +62,10 @@ const Projects = () => {
             <SwiperSlide>
                 <a href="https://accrudapp.netlify.app" target="_blank"><img src={crudapp} alt="crud" /></a>
                 <h2>CRUD APP</h2>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a href="https://acshophtmlcss.netlify.app/" target="_blank"><img src={acshop} alt="acshop" /></a>
+                <h2>AC SHOP HTML|CSS</h2>
             </SwiperSlide>
             <SwiperSlide>
                 <a href="https://acquotes.netlify.app" target="_blank"><img src={quotes} alt="quotes" /></a>
