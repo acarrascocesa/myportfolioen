@@ -28,10 +28,6 @@ const Projects = () => {
         className="projects-slider"
         >
             <SwiperSlide>
-                <a href="https://acreactecommerce.netlify.app" target="_blank"><img src={ecommerce} alt="ecommerce" /></a>
-                <h2>Ecommerce</h2>
-            </SwiperSlide>
-            <SwiperSlide>
                 <a href="https://accryptos.netlify.app" target="_blank"><img src={crypto} alt="crypto" /></a>
                 <h2>Crypto Trade</h2>
             </SwiperSlide>
@@ -46,6 +42,10 @@ const Projects = () => {
             <SwiperSlide>
                 <a href="https://reactportfolioac.netlify.app/" target="_blank"><img src={portfolio} alt="portfolio" /></a>
                 <h2>Spanish Portfolio</h2>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a href="https://acreactecommerce.netlify.app" target="_blank"><img src={ecommerce} alt="ecommerce" /></a>
+                <h2>Ecommerce</h2>
             </SwiperSlide>
             <SwiperSlide>
                 <a href="https://ricknmortyappac.netlify.app" target="_blank"> <img src={rickandmorty} alt="rickandmorty" /></a>

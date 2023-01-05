@@ -20,6 +20,7 @@ const Skills = () => {
         <i class="javascript fa-brands fa-js"></i>
         <i class="react fa-brands fa-react"></i>
         <i class="python fa-brands fa-python"></i>
+        <i class="node fa-brands fa-node"></i>
         </motion.div>
     </div>
   )

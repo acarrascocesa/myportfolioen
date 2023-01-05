@@ -16,8 +16,8 @@ const Intro = () => {
           <span>Hi! I'm</span>
           <span>Angel Carrasco</span>
           <span>
-            I'm a Frontend Developer with React. I can handle HTML, CSS, Javascript,
-            React, Python, Git. I am a responsible person, willing to learn
+            I'm a Fullstackk Developer. I can handle HTML, CSS, Javascript,
+            React, Python, Git and Node for the backend. I am a responsible person, willing to learn
             everything related to programming. I have 8 years of experience as
             Senior Technical Support.
           </span>
