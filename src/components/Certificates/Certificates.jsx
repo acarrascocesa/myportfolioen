@@ -11,10 +11,20 @@ import introduction from "./img/introduction.jpg"
 import algo from "./img/algo.jpg"
 import logic from "./img/logic.jpg"
 import english from "./img/english.png"
+import node from "./img/node.png"
+import full from "./img/full.png"
 
 
 const Certificates = () => {
     const certificates = [
+        {
+            img: full,
+            name: "Fullstack Developer"
+        },
+        {
+            img: node,
+            name: "Backend Developer with Node"
+        },
         {
             img: react,
             name: "Frontend Developer with React"
